@@ -1,0 +1,1038 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap');
+
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Lato';
+  font-size: 16px;
+  line-height: 24px;
+  color:#333;
+  background-color: black;
+}
+
+.ancho {
+  max-width: 1200px;
+  margin:auto;
+}
+
+.margen {
+  padding: 10px;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.encabezado {
+  padding: 10px;
+}
+
+.contenedorLogo {
+  width: 20%;
+  margin: auto;
+}
+
+.contenedorLogo IMG {
+  width: 100%;
+}
+
+
+.menu {
+  padding: 10px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin-right: 50px;
+  font-weight: bold;
+}
+
+.menu a:last-child {
+  margin-right: 0px;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.textoPrincipal {
+  text-align: center;
+  color: white;
+  line-height: 50px;
+  padding-top: 100px;
+}
+
+.textoPrincipal hr {
+  width: 5%;
+  margin: auto;
+  border: 2px white solid;
+}
+
+.textoPrincipal h2 {
+  margin: 30px;
+}
+
+.textoPrincipal h1 {
+  font-size: 120px;
+  margin: 70px;
+}
+
+.textoPrincipal p {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.contenedorImagen {
+  background-image: url(imagenes/imagePrincipal.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+.seccionTriple {
+  text-align: center;
+  padding: 35px;
+  color: white;
+}
+
+.seccionTriple hr {
+  width: 10%;
+  margin: auto;
+  border: 3px #B89F80 solid;
+  
+}
+
+.seccionTriple p {
+  line-height: 20px;
+}
+
+.seccionTriple h3 {
+  margin: 20px;
+}
+
+.seccionTriple1 {
+  width: 28%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.seccionTriple2 {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.seccionTriple3 {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  
+}
+
+.imagen1 {
+  width: 80%;
+  margin: auto;
+  background-image: url(imagenes/relajar.jpg);
+  height: 180px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagen2 {
+  width: 80%;
+  margin: auto;
+  background-image: url(imagenes/habitaciones.jpg);
+  height: 180px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagen3 {
+  width: 80%;
+  margin: auto;
+  background-image: url(imagenes/disfrutar.jpg);
+  height: 180px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.habitaciones {
+  background-color: #EAEAEA;
+  padding: 35px;
+  text-align: center;
+}
+
+.habitaciones hr {
+  width: 5%;
+  margin: auto;
+  border: 1px #B89F80 solid;
+}
+
+.habitaciones a {
+  text-decoration: none;
+  color: #B89F80;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.tabla {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.tabla table {
+    margin: auto;  
+    width: 80%;
+    border-spacing: 5px;
+    font-size: 14px; 
+    border: 3px #B89F80 solid; 
+}
+
+.tabla td {
+    padding: 8px;
+    text-align: left; 
+    border: 1px black solid;
+}
+
+.tabla th {
+    background-color: #B89F80;
+    color: white;
+    border: none;
+    padding: 2px;
+    text-align: center;
+}
+
+.tabla th:nth-child(2) {
+  width: 350px;
+}
+
+.tabla td:nth-child(1) {
+  font-weight: bold;
+  width: 150px;
+}
+
+.tabla td:nth-child(3) {
+  width: 200px;
+  text-align: center;
+}
+
+.tabla td:nth-child(4) {
+  font-weight: bold;
+  color: #D4A574;
+  width: 200px;
+  text-align: center;
+}
+
+.imgNosotros {
+  background-image: url(imagenes/nosotros.png);
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.textoNosotros {
+  color: white;
+  width: 40%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.tituloNosotros {
+  color: white;
+  width: 48%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.tituloNosotros hr {
+  width: 10%;
+  margin: auto;
+  border: 2px white solid;
+}
+
+.tituloNosotros h2 {
+  margin: 0px 30px 30px;
+  font-size: 40px;
+}
+
+.tituloNosotros h4 {
+  font-style: italic;
+}
+
+.seccionVideo {
+  text-align: center;
+  padding: 20px;
+}
+
+.TextoVideo {
+  padding: 20px;
+  width: 40%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.TextoVideo h2 {
+  color: #B89F80;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.TextoVideo p {
+  color: white;
+}
+
+.contenedor_youtube {
+  padding: 20px;
+  width: 48%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.videoyoutube {
+  border-radius: 20px;
+  width: 620px;
+  height: 350px;
+  border: 3px #B89F80 solid;
+}
+
+.footer {
+  color: white;
+  padding: 20px;
+  text-align: center;
+  background-color: #1F1F1F;
+}
+
+.infoFooter {
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 40px;
+  width:350px;
+  padding: 15px;
+}
+
+.infoFooter ul {
+  margin-left: 20px;
+}
+
+.sloganFooter {
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  width: 500px;
+  padding: 15px;
+  font-style: italic;
+}
+
+.logoFooter {
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  width: 400px;
+}
+
+.footer2 {
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer ul {
+  list-style: square;
+}
+
+/* Habitaciones */
+
+.contenedorHabitaciones {
+  text-align: center;
+  padding: 30px;
+}
+
+.Habitacion {
+  width: 550px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+  text-align: left;
+  height: 200px;
+  margin: 30px 0px;
+}
+
+.Habitacion h2 {
+  color: #B89F80;
+}
+
+.Habitacion p {
+  color: white;
+}
+
+.btnDetalles {
+  background-color: #B89F80;
+  color: white;
+  padding: 8px 30px;
+  font-style: italic;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.sencilla {
+  width: 550px;
+  display: inline-block;
+  padding: 10px;
+  vertical-align: middle;
+  background-image: url(imagenes/Habitacion-Sencilla.jpg);
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.doble {
+  width: 550px;
+  display: inline-block;
+  padding: 10px;
+  vertical-align: middle;
+  background-image: url(imagenes/doble.jpg);
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cuadruple {
+  width: 550px;
+  display: inline-block;
+  padding: 10px;
+  vertical-align: middle;
+  background-image: url(imagenes/cuadruple.jpg);
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.king {
+  width: 550px;
+  display: inline-block;
+  padding: 10px;
+  vertical-align: middle;
+  background-image: url(imagenes/King-Size.jpg);
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.deluxe {
+  width: 550px;
+  display: inline-block;
+  padding: 10px;
+  vertical-align: middle;
+  background-image: url(imagenes/Deluxe.jpg);
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.habitacion1 {
+  padding: 10px;
+  text-align: center;
+}
+
+.habitacion1 hr {
+  width: 1100px;
+  margin: auto;
+  border: 1px #B89F80 solid;
+}
+
+
+.imgEncabezado {
+  background-image: url(imagenes/imgHabitaciones.png);
+  height: 180px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.titulos {
+  color: white;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.titulos2 {
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.titulos2 h4 {
+  color: white;
+  margin: 20px;
+}
+
+.textoDetalles {
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.textoDetalles h2 {
+  color: #B89F80;
+}
+
+.textoDetalles hr {
+  width: 5%;
+  margin: auto;
+  border: 1px #B89F80 solid;
+}
+
+.textoDetalles p {
+  margin: 35px 0px;
+}
+
+.textoDetalles a {
+  margin-right: 20px;
+}
+
+.textoDetalles a:last-child {
+  margin-right: 0px;
+}
+
+.btnReservar {
+  background-color: #B89F80;
+  color: white;
+  padding: 8px 50px;
+  font-style: italic;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.imagenSencilla {
+  background-image: url(imagenes/Habitacion-Sencilla.jpg);
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagenDoble {
+  background-image: url(imagenes/doble.jpg);
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagenCuadruple {
+  background-image: url(imagenes/cuadruple.jpg);
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagenKing {
+  background-image: url(imagenes/King-Size.jpg);
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagenDeluxe {
+  background-image: url(imagenes/Deluxe.jpg);
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Servicios */
+
+.servicios1 {
+  background-color: #EAEAEA;
+  padding: 20px;
+  text-align: center;
+  color: black;
+}
+
+.servicios2 {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.servicios2 h2 {
+  color: #B89F80;
+}
+.iconos {
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.servicios1 hr {
+  width: 5%;
+  margin: auto;
+  border: 1px #B89F80 solid;
+}
+
+.servicios1 p {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.icono1 {
+  width: 24%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 5px;
+  text-align: center;
+}
+
+.icono2 {
+  width: 24%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 5px;
+  text-align: center;
+}
+
+.icono3 {
+  width: 24%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 5px;
+  text-align: center;
+}
+
+.icono4 {
+  width: 24%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 5px;
+  text-align: center;
+}
+
+.zonaArq {
+  display: inline-block;
+  width: 550px;
+  text-align: left;
+  height: 180px;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.imgZonaArq {
+  display: inline-block;
+  vertical-align: middle;
+  width: 550px;
+  height: 180px;
+  background-image: url(imagenes/Zona-arqueologica.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.playas {
+  display: inline-block;
+  width: 550px;
+  text-align: right;
+  padding: 10px;
+  height: 180px;
+  vertical-align: middle;
+}
+
+.playas p {
+  font-size: 16px;
+  font-weight: normal;
+  color: black;
+}
+
+.imgPlayas {
+  display: inline-block;
+  width: 550px;
+  height: 180px;
+  vertical-align: middle;
+  background-image: url(imagenes/playas.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bicicletas {
+  display: inline-block;
+  width: 550px;
+  text-align: left;
+  padding: 10px;
+  height: 180px;
+  vertical-align: middle;
+}
+
+.imgBicicletas {
+  display: inline-block;
+  width: 550px;
+  height: 180px;
+  vertical-align: middle;
+  background-image: url(imagenes/bicicletas.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.frmContacto {
+  color: white;
+  padding: 30px;
+}
+
+.frm {
+  width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.inputs {
+  border: 1px #ccc solid;
+  padding: 12px;
+  width: 1000px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: white;
+  background-color: #1E1E1E;
+}
+
+.frmContacto textarea {
+  font-family: helvetica;
+  line-height: 24px;
+  width: 1000px;
+  margin-top: 10px;
+  height: 300px;
+  resize: none;
+  color: white;
+  border: 1px #ccc solid;
+  padding: 10px;
+  background-color: #1E1E1E;
+}
+
+.btnEnviarMsg {
+  background-color: #B89F80;
+  color: white;
+  border-radius: 3px;
+  padding: 15px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 1000px;
+  font-weight: bold;
+}
+
+/* Reservar */
+
+.frmReserva {
+  padding: 20px;
+  text-align: center;
+}
+
+.contenedorFrmReserva {
+  color: white;
+  text-align: left;
+  width: 50%;
+  margin: auto;
+}
+
+.rojo {
+  color: red;
+}
+
+.inputs2 {
+  border: 1px #ccc solid;
+  padding: 12px;
+  width: 720px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: white;
+  background-color: #1E1E1E;
+}
+
+.inputs3 {
+  border: 1px #ccc solid;
+  padding: 12px;
+  width: 350px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: white;
+  background-color: #1E1E1E;
+}
+
+.separacion1 {
+  width: 48%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.separacion2 {
+  width: 48%;
+  display: inline-block;
+}
+
+.contenedorFrmReserva textarea{
+  font-family: helvetica;
+  line-height: 24px;
+  width: 720px;
+  margin-top: 10px;
+  height: 100px;
+  resize: none;
+  color: white;
+  border: 1px #ccc solid;
+  padding: 10px;
+  background-color: #1E1E1E;
+}
+
+.btnEnviar {
+  background-color: #B89F80;
+  color: white;
+  border-radius: 3px;
+  padding: 10px 20px;
+  margin: 20px 0px;
+  cursor: pointer;
+  width: 720px;
+  font-weight: bold;
+}
+
+/* Dashboard */
+
+.encabezado2 {
+  color: #B89F80;
+  padding: 20px;
+  text-align: center;
+}
+
+.logoPanel {
+  width: 15%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.logoPanel IMG {
+  display: block;
+  width: 100%;
+}
+
+.contenedorPrincipal {
+  padding: 10px;
+  text-align: center;
+}
+
+.menuLateral {
+  background-color: #B89F80;
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 20px;
+  height: 400px;
+  margin-right: 5px;
+  text-align: left;
+}
+
+.menuLateral a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.menuLateral a:last-child {
+  background-color: black;
+  border: 2px #B89F80 solid;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+.salir {
+  margin-top: 15px;
+}
+
+.contenedorSecundario {
+  width: 75%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #EAEAEA;
+  padding: 20px;
+  color: black;
+}
+
+.imgInicio {
+  border-radius: 10px;
+  margin-top: 30px;
+  border: 2px #B89F80 solid;
+}
+
+.botones {
+  margin-top: 25px;
+}
+
+.botones a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
+
+.botones a:last-child {
+  margin-right: 0px;
+}
+
+.btnVer {
+  background-color: #B89F80;
+  border: 2px black solid;
+  border-radius: 3px;
+  padding: 8px 25px;
+}
+
+.btnAgregar {
+  background-color: black;
+  border: 2px #B89F80 solid;
+  border-radius: 3px;
+  padding: 8px 25px;
+}
+
+.agregar {
+  border: 2px #B89F80 solid;
+  width: 80%;
+  margin: auto;
+  margin-top: 25px;
+  text-align: left;
+  padding: 20px;
+}
+
+.agregar label{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.inputsReserva {
+  border: 1px #ccc solid;
+  padding: 12px;
+  width: 800px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: black;
+}
+
+.inputsReserva2 {
+  border: 1px #ccc solid;
+  padding: 12px;
+  width: 350px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: black;
+}
+
+.agregar textarea {
+  font-family: helvetica;
+  line-height: 24px;
+  width: 800px;
+  border-radius: 5px;
+  margin-top: 10px;
+  height: 100px;
+  padding: 10px;
+  resize: none;
+  background-color: white;
+  color: black;
+  border: 1px #ccc solid;
+}
+
+.contenedorLogin {
+  width: 30%;
+  border: 5px #C8B273 solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #EAEAEA;
+  height: 250px;
+}
+
+.btn_Login {
+  background-color: #B89F80;
+  width: 300px;
+  padding: 12px;
+  color: white;
+  font-weight: bold;
+  margin: 5px;
+  border: 1px #B89F80 solid;
+  border-radius: 5px;
+}
+
+.inputsLog {
+  border: 1px #ccc solid;
+  padding: 12px;
+  width: 300px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: black;
+}
+
+.inputsLog:first-child{
+  margin-top: 30px;
+}
+
+.icono {
+  padding: 10px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.volver {
+  text-align: left;
+  padding: 10px;
+}
+
+.contenedorTabla table {
+    margin: auto;  
+    width: 100%;
+    border-spacing: 5px;
+    font-size: 14px;  
+    margin-top: 30px; 
+}
+
+.contenedorTabla th, td {
+    padding: 5px;
+    text-align: center; 
+    border: 1px black solid;
+}
+
+.contenedorTabla a {
+    color: blue;  
+    text-decoration: underline;
+}
+
+.contenedorTabla th {
+    background-color: #B89F80;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 2px;
+}
